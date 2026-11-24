@@ -1,0 +1,17 @@
+{
+  "name": "GameHub OS",
+  "short_name": "GameHub",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0c0f19",
+  "theme_color": "#101321",
+  "description": "A browser gaming dashboard for Chromebook.",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

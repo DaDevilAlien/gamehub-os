@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101321">
+  <title>GameHub OS</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="GameHub OS home"><span class="brand-mark">G</span><span>GAMEHUB <b>OS</b></span></a>
+    <div class="top-actions">
+      <span class="status"><i></i> SYSTEM READY</span>
+      <button id="fullscreenBtn" class="small-btn" type="button">⛶ Fullscreen</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow">YOUR GAMING SPACE</div>
+      <h1>Ready. Set. <span>Play.</span></h1>
+      <p>One hub for browser games, Roblox and your gaming shortcuts.</p>
+      <div class="hero-actions">
+        <a class="primary-btn" href="https://www.roblox.com/" target="_blank" rel="noopener">▶ Open Roblox</a>
+        <button id="gamingMode" class="secondary-btn" type="button" aria-pressed="false">Browser Gaming Mode: OFF</button>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading"><div><div class="eyebrow">QUICK LAUNCH</div><h2>Your games</h2></div><span class="muted">Choose a destination</span></div>
+      <div class="game-grid">
+        <a class="game-card roblox" href="https://www.roblox.com/" target="_blank" rel="noopener"><span class="game-icon">R</span><span class="game-name">Roblox</span><span class="game-desc">Official Roblox website</span><span class="launch">↗</span></a>
+        <a class="game-card" href="https://www.crazygames.com/" target="_blank" rel="noopener"><span class="game-icon">CG</span><span class="game-name">CrazyGames</span><span class="game-desc">Instant browser games</span><span class="launch">↗</span></a>
+        <a class="game-card" href="https://poki.com/" target="_blank" rel="noopener"><span class="game-icon">P</span><span class="game-name">Poki</span><span class="game-desc">Play games online</span><span class="launch">↗</span></a>
+        <a class="game-card" href="https://www.minecraft.net/" target="_blank" rel="noopener"><span class="game-icon">M</span><span class="game-name">Minecraft</span><span class="game-desc">Official Minecraft site</span><span class="launch">↗</span></a>
+        <a class="game-card" href="https://store.steampowered.com/" target="_blank" rel="noopener"><span class="game-icon">S</span><span class="game-name">Steam</span><span class="game-desc">Steam store</span><span class="launch">↗</span></a>
+        <a class="game-card" href="https://itch.io/games/html5" target="_blank" rel="noopener"><span class="game-icon">i</span><span class="game-name">itch.io</span><span class="game-desc">HTML5 games</span><span class="launch">↗</span></a>
+      </div>
+    </section>
+
+    <section class="section lower">
+      <div class="panel">
+        <div class="eyebrow">BROWSER GAMING MODE</div>
+        <h2 id="modeTitle">Standard mode</h2>
+        <p id="modeText">Turn on Gaming Mode to hide distractions and expand your play space.</p>
+      </div>
+      <div class="panel tip">
+        <div class="eyebrow">CHROMEBOOK TIP</div>
+        <h2>Make it feel like an app</h2>
+        <p>Once GameHub is hosted on an allowed HTTPS website, use Chrome's menu to install it if your school permits app installation.</p>
+      </div>
+    </section>
+  </main>
+  <footer>GAMEHUB OS <span>•</span> Community-built browser dashboard</footer>
+  <script src="app.js"></script>
+</body>
+</html>
